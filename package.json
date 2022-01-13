@@ -1,6 +1,12 @@
 {
   "name": "woordle-woorden",
-  "packageManager": "yarn@3.1.1",
+  "version": "0.1.0",
+  "description": "A (Dutch) app to help you solve the daily (Dutch) woordle puzzel.",
+  "main": "app.js",
+  "repository": "https://github.com/bkamphues/woordle-woorden.git",
+  "author": "Bo Kamphues <b.kamphues@pm.me>",
+  "license": "MIT",
+  "private": false,
   "devDependencies": {
     "gulp": "^4.0.2"
   }
