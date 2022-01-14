@@ -6,7 +6,6 @@
   "repository": "https://github.com/bkamphues/woordle-woorden.git",
   "author": "Bo Kamphues <b.kamphues@pm.me>",
   "license": "MIT",
-  "private": false,
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
@@ -21,6 +20,8 @@
     "serve": "node server/server.js"
   },
   "dependencies": {
-    "express": "^4.17.2"
-  }
+    "express": "^4.17.2",
+    "normalize.css": "^8.0.1"
+  },
+  "packageManager": "yarn@3.1.1"
 }
