@@ -5,7 +5,7 @@ let express = require("express");
 let app = express();
 
 // Use the build directory as a static website root.
-app.use(express.static(__dirname + "/../dist"));
+app.use(express.static(__dirname + "/../build"));
 
 // Run express server.
 let server = app.listen(8080, () => {
