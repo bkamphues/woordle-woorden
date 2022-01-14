@@ -5,7 +5,7 @@ const { src, dest } = require("gulp");
 const babel = require("gulp-babel");
 
 exports.default = function (done) {
-  return src("./src/components/**/*.js")
+  return src("./src/components/**/*.tsx")
     .pipe(
       babel({
         presets: [
@@ -18,5 +18,5 @@ exports.default = function (done) {
         ],
       })
     )
-    .pipe(dest("./dist"));
+    .pipe(dest("./build/js"));
 };
