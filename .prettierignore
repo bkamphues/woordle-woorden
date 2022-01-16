@@ -1,6 +1,0 @@
-# Ignore build artifacts:
-dist
-node_modules
-.pnp.*
-.yarn/*
-yarn.lock

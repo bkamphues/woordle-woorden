@@ -2,26 +2,15 @@
   "name": "woordle-woorden",
   "version": "0.1.0",
   "description": "A (Dutch) app to help you solve the daily (Dutch) woordle puzzel.",
-  "main": "app.js",
-  "repository": "https://github.com/bkamphues/woordle-woorden.git",
-  "author": "Bo Kamphues <b.kamphues@pm.me>",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkamphues/woordle-woorden.git"
+  },
+  "author": "Bo Kamphues",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@babel/preset-env": "^7.16.8",
-    "@types/express": "^4.17.13",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "prettier": "2.5.1",
-    "typescript": "^4.5.4"
+  "bugs": {
+    "url": "https://github.com/bkamphues/woordle-woorden/issues"
   },
-  "scripts": {
-    "build": "gulp",
-    "serve": "node server/server.js"
-  },
-  "dependencies": {
-    "express": "^4.17.2",
-    "normalize.css": "^8.0.1"
-  },
-  "packageManager": "yarn@3.1.1"
+  "homepage": "https://woordle-woorden.nl"
 }
