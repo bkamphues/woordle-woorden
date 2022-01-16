@@ -2,7 +2,9 @@
   "name": "woordle-woorden",
   "version": "0.1.0",
   "description": "A (Dutch) app to help you solve the daily (Dutch) woordle puzzel.",
-  "scripts": {},
+  "scripts": {
+    "build": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bkamphues/woordle-woorden.git"
@@ -14,6 +16,9 @@
   },
   "homepage": "https://woordle-woorden.nl",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "@types/gulp": "^4.0.9",
+    "gulp": "^4.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
   }
 }
