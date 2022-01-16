@@ -4,6 +4,7 @@ import React from "react";
 // App interface
 type Props = {
   className?: string;
+  version: string;
 };
 
 // App class
@@ -11,22 +12,25 @@ export default class App extends React.Component<Props> {
   render() {
     return (
       <div className={this.props.className}>
-        <div className="flex justify-center text-9xl space-x-8">
-          <div id="letter-1" className="">
-            <p>1</p>
-          </div>
-          <div id="letter-2">
-            <p>2</p>
-          </div>
-          <div id="letter-3">
-            <p>3</p>
-          </div>
-          <div id="letter-4">
-            <p>4</p>
-          </div>
-          <div id="letter-5">
-            <p>5</p>
-          </div>
+        <h1 className="text-5xl font-mono text-center text-neutral-300 p-5">
+          Woordle-Woorden Prototype {this.props.version}
+        </h1>
+        <div className="flex justify-center max-w-lg text-center text-4xl sm:text-6xl md:text-9xl space-x-8 mx-10">
+          <p id="letter-1" className="flex-auto">
+            1
+          </p>
+          <p id="letter-1" className="flex-auto">
+            2
+          </p>
+          <p id="letter-1" className="flex-auto">
+            3
+          </p>
+          <p id="letter-1" className="flex-auto">
+            4
+          </p>
+          <p id="letter-1" className="flex-auto">
+            5
+          </p>
         </div>
       </div>
     );
