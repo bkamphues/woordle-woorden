@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/bkamphues/woordle-woorden/issues"
   },
-  "homepage": "https://woordle-woorden.nl"
+  "homepage": "https://woordle-woorden.nl",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
