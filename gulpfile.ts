@@ -6,9 +6,6 @@ function HTMLTask(): NodeJS.ReadWriteStream {
   return src("src/html/**/*.html").pipe(dest("dist"));
 }
 
-// Complete Build Task
-function buildTask(cb: () => void) {}
-
 // Export Tasks
 exports.HTMLTask = HTMLTask;
-exports.default = buildTask;
+exports.default = series(HTMLTask);
